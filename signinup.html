@@ -18,6 +18,128 @@
         }
     </script>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <style>
+        /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url("image/signup_bg.jpeg");   
+     background-size: 1550px 800px;
+     background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.login-wrap {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+
+.tab:hover {
+    color: #1e90ff;
+}
+
+.sign-in:checked ~ .login-form .signin_wthree,
+.sign-up:checked ~ .login-form .signup_wthree {
+    display: block;
+}
+
+.signin_wthree,
+.signup_wthree {
+    display: none;
+}
+
+.label {
+    color: #333;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+.button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.foot-lnk {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+footer p {
+    color:#fff;
+    margin: 0;
+}
+
+    </style>
     <!-- onlinefonts -->
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
 </head>
